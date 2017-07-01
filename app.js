@@ -26,5 +26,5 @@ app.get('/projects', (req, res)=>{
 })
 
 app.listen(port, ()=>{
-    console.log('listen on port 3002');
+    console.log(`listen on port ${port}`);
 });
